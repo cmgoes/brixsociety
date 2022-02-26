@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState } from 'react';
+import React, { Fragment, useState } from 'react';
 import { makeStyles } from '@mui/styles';
 import {
     AppBar,
@@ -46,7 +46,7 @@ const useStyles = makeStyles(theme => ({
 export default function ButtonAppBar() {
     const classes = useStyles();
     const history = useHistory();
-    const [account, setAccount] = useState(null);
+    // const [account, setAccount] = useState(null);
     const [mobileDrawer, setMobileDrawer] = useState(false);
     const [anchorElUser, setAnchorElUser] = useState(null);
 
@@ -70,14 +70,14 @@ export default function ButtonAppBar() {
 		    return;
 		}
         await ethEnabled()
-        const accounts = await window.ethereum.request({ method: 'eth_accounts' });
-        setAccount(accounts[0]);
+        // const accounts = await window.ethereum.request({ method: 'eth_accounts' });
+        // setAccount(accounts[0]);
     }
 
-    useEffect( async () => {
-        const accounts = await window.ethereum.request({ method: 'eth_accounts' });
-        setAccount(accounts[0]);
-    }, [])
+    // useEffect( async () => {
+    //     const accounts = await window.ethereum.request({ method: 'eth_accounts' });
+    //     setAccount(accounts[0]);
+    // }, [])
     return (
         <Fragment>
             <AppBar position="static" className={classes.appBar}>
