@@ -59,8 +59,8 @@ const Home = () => {
                         variant='h1'
                         textAlign="center"
                         sx={{
-                            fontFamily: "oswald, Oswald-Bold",
-                            fontSize: { xs: 40, md: 50, lg: 60, xl: 70 },                            
+                            fontSize: { xs: 40, md: 50, lg: 60, xl: 70 },
+                            fontFamily: 'Oswald-Bold',
                             maxWidth: { xs: 600, lg: 800, xl: 870 },
                             mb: '27px',
                             mx: 'auto',
@@ -72,7 +72,7 @@ const Home = () => {
                     <Typography
                         variant='h4'
                         textAlign="center"
-                        sx={{                            
+                        sx={{
                             fontSize: { xs: 16, sm: 20 },
                             fontWeight: 400,
                             maxWidth: 675,

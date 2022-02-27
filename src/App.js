@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import Home from './pages/Home';
+import Store from './pages/Store';
 
 function App() {
   return (
@@ -11,17 +12,21 @@ function App() {
             path="/home"
             component={Home}
           />
-          <Route
+          {/* <Route
             path="/activity"
-            component={Home}
+            component={null}
           />
           <Route
             path="/shop"
-            component={Home}
+            component={null}
           />
           <Route
             path="/page"
-            component={Home}
+            component={null}
+          /> */}
+          <Route
+            path="/store"
+            component={Store}
           />
           <Redirect from='/' to='/home' />
         </Switch>
