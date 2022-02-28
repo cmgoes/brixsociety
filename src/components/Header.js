@@ -26,7 +26,7 @@ const useStyles = makeStyles(theme => ({
     appBar: {
         padding: '14px 0',
         backgroundColor: 'transparent!important',
-        boxShadow: 'none!important'
+        boxShadow: 'none!important',
     },
     menuButton: {
         display: 'block!important',
@@ -45,10 +45,12 @@ const useStyles = makeStyles(theme => ({
 
 export default function ButtonAppBar() {
     const classes = useStyles();
-    const history = useHistory();
+    const history = useHistory()
     const [account, setAccount] = useState(null);
     const [mobileDrawer, setMobileDrawer] = useState(false);
     const [anchorElUser, setAnchorElUser] = useState(null);
+
+    console.log(account)
 
     const handleOpenUserMenu = (event) => {
         setAnchorElUser(event.currentTarget);
@@ -74,13 +76,21 @@ export default function ButtonAppBar() {
         setAccount(accounts[0]);
     }
 
-    useEffect( async () => {
-        const accounts = await window.ethereum.request({ method: 'eth_accounts' });
-        setAccount(accounts[0]);
+    useEffect(() => {
+        const fetchAccount = async () => {
+            const accounts = await window.ethereum.request({ method: 'eth_accounts' });
+            setAccount(accounts[0]);
+        }
+        fetchAccount()
     }, [])
     return (
         <Fragment>
-            <AppBar position="static" className={classes.appBar}>
+            <AppBar position="fixed" sx={{
+                padding: '14px 0',
+                backgroundImage: 'linear-gradient(180deg, #393939, #0b0a0f)',
+                boxShadow: 'none',
+                height: { xs: 84, sm: 108 }
+            }}>
                 <Container>
                     <Toolbar disableGutters sx={{ justifyContent: 'space-between' }}>
                         <Box

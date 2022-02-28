@@ -8,7 +8,6 @@ import {
     IconButton,
     Link
 } from '@mui/material';
-import Header from '../components/Header';
 import BackgroundImage from '../assets/images/background.png';
 import GooglePlusIcon from '../assets/images/Google+.svg';
 import FacebookIcon from '../assets/images/Facebook.svg';
@@ -43,8 +42,8 @@ const Home = () => {
             display: 'flex',
             flexDirection: 'column',
             minHeight: '100vh',
+            pt: { xs: '84px', sm: '108px' }
         }}>
-            <Header />
             <Box
                 component={Container}
                 sx={{
