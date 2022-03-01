@@ -6,14 +6,16 @@ import {
     Badge
 } from '@mui/material';
 import FeaturedBgImage from '../assets/images/FeaturedBg.png';
-import FeaturedAsset1 from '../assets/images/featured-asset1.png';
-import FeaturedAsset3 from '../assets/images/featured-asset3.png';
-import FeaturedAsset4 from '../assets/images/featured-asset4.png';
-import FeaturedAsset5 from '../assets/images/featured-asset5.png';
-import FeaturedAsset6 from '../assets/images/featured-asset6.png';
-import FeaturedAsset8 from '../assets/images/featured-asset8.png';
-import FeaturedAsset9 from '../assets/images/featured-asset9.png';
-import FeaturedAsset10 from '../assets/images/featured-asset10.png';
+import FeaturedAsset1 from '../assets/images/featured-asset1.jpg';
+import FeaturedAsset2 from '../assets/images/featured-asset2.jpg';
+import FeaturedAsset3 from '../assets/images/featured-asset3.jpg';
+import FeaturedAsset4 from '../assets/images/featured-asset4.jpg';
+import FeaturedAsset5 from '../assets/images/featured-asset5.jpg';
+import FeaturedAsset6 from '../assets/images/featured-asset6.jpg';
+import FeaturedAsset7 from '../assets/images/featured-asset7.jpg';
+import FeaturedAsset8 from '../assets/images/featured-asset8.jpg';
+import FeaturedAsset9 from '../assets/images/featured-asset9.jpg';
+import FeaturedAsset10 from '../assets/images/featured-asset10.jpg';
 
 import AssetsUserImage1 from '../assets/images/assetsUser1.png';
 import AssetsUserImage2 from '../assets/images/assetsUser2.png';
@@ -27,7 +29,7 @@ const assetsLists = [
         likeNumber: 320
     },
     {
-        image: FeaturedAsset1,
+        image: FeaturedAsset2,
         text: 'Scarecrow in daylight',
         price: 235.22,
         likeNumber: 320
@@ -57,7 +59,7 @@ const assetsLists = [
         likeNumber: 320
     },
     {
-        image: FeaturedAsset6,
+        image: FeaturedAsset7,
         text: 'Super lilting & Watter',
         price: 235.22,
         likeNumber: 320
