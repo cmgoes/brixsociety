@@ -66,7 +66,7 @@ const Home = () => {
                             color: '#fff'
                         }}
                     >
-                        Create digital items, sell them your self or keep collecting
+                        BrixSociety<br/>Who we are:
                     </Typography>
                     <Typography
                         variant='h4'
@@ -80,9 +80,8 @@ const Home = () => {
                             mb: '57px'
                         }}
                     >
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                        diam nonumy eirmod tempor invidunt ut labore et dolore 
-                        magna aliquyam erat, sed diam
+                        Community based on the wax chain of 10k MiniBrix NFTs currently developing a staking platform, built in store, 
+                        and multiple arcade style games coming 2022 Main page information
                     </Typography>
                     <Box sx={{
                         display: 'flex',

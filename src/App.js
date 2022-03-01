@@ -15,7 +15,7 @@ function App() {
             component={Home}
           />
           <Route
-            path="/activity"
+            path="/arcade"
             component={Store}
           />
           <Route
@@ -23,7 +23,7 @@ function App() {
             component={null}
           />
           <Route
-            path="/page"
+            path="/whitepaper"
             component={null}
           />
           <Redirect from='/' to='/home' />

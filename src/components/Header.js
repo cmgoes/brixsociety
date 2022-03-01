@@ -119,9 +119,9 @@ export default function ButtonAppBar() {
                             <Button 
                                 className={classes.menuButton}
                                 sx={{ mr: {md: '20px', lg: '44px'} }}
-                                onClick={() => history.push('/activity')}
+                                onClick={() => history.push('/arcade')}
                             >
-                                Activity
+                                Arcade
                             </Button>
                             <Button 
                                 className={classes.menuButton}
@@ -133,9 +133,9 @@ export default function ButtonAppBar() {
                             <Button 
                                 className={classes.menuButton}
                                 sx={{ mr: {md: '20px', lg: '44px'} }}
-                                onClick={() => history.push('/page')}
+                                onClick={() => history.push('/whitepaper')}
                             >
-                                Page
+                                Whitepaper
                             </Button>
                         </Box>
                         <Button

@@ -235,7 +235,7 @@ const GameStatus = () => {
                             fontSize: 32,
                             color: '#fff'
                         }}>
-                            10.433 ETH
+                            10.433 WAX
                             <Typography
                                 component="span"
                                 sx={{

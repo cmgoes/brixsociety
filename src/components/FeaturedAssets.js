@@ -23,62 +23,52 @@ import HeartImage from '../assets/images/heart.png';
 
 const assetsLists = [
     {
-        image: FeaturedAsset1,
-        text: 'Scarecrow in daylight',
+        image: FeaturedAsset1,        
         price: 235.22,
         likeNumber: 320
     },
     {
-        image: FeaturedAsset2,
-        text: 'Scarecrow in daylight',
+        image: FeaturedAsset2,        
         price: 235.22,
         likeNumber: 320
     },
     {
-        image: FeaturedAsset3,
-        text: 'Twilight Fracture City',
+        image: FeaturedAsset3,        
         price: 235.22,
         likeNumber: 320
     },
     {
-        image: FeaturedAsset4,
-        text: 'Resonate Sanctuary',
+        image: FeaturedAsset4,        
         price: 235.22,
         likeNumber: 320
     },
     {
-        image: FeaturedAsset5,
-        text: 'Exe Dream Sequence',
+        image: FeaturedAsset5,        
         price: 235.22,
         likeNumber: 320
     },
     {
-        image: FeaturedAsset6,
-        text: 'Super lilting & Watter',
+        image: FeaturedAsset6,        
         price: 235.22,
         likeNumber: 320
     },
     {
-        image: FeaturedAsset7,
-        text: 'Super lilting & Watter',
+        image: FeaturedAsset7,        
         price: 235.22,
         likeNumber: 320
     },
     {
-        image: FeaturedAsset8,
-        text: 'Scarecrow in daylight',
+        image: FeaturedAsset8,        
         price: 235.22,
         likeNumber: 320
     },
     {
-        image: FeaturedAsset9,
-        text: 'Scarecrow in daylight',
+        image: FeaturedAsset9,        
         price: 235.22,
         likeNumber: 320
     },
     {
-        image: FeaturedAsset10,
-        text: 'Super-Neumorphism',
+        image: FeaturedAsset10,        
         price: 235.22,
         likeNumber: 320
     }
@@ -170,13 +160,13 @@ const FeaturedAssets = () => {
                                     </Typography>
                                 </Box>
                             </Box>
-                            <Typography sx={{
+                            {/* <Typography sx={{
                                 color: '#fff',
                                 fontSize: '18px',
                                 mb: '20px'
                             }}>
                                 {list.text}
-                            </Typography>
+                            </Typography> */}
                             <Box sx={{
                                 backgroundColor: '#1d1d1d',
                                 p: '12px 10px',
@@ -194,7 +184,7 @@ const FeaturedAssets = () => {
                                     color: '#fff',
                                     fontSize: 16
                                 }}>
-                                    {list.price} ETH
+                                    {list.price} WAX
                                 </Typography>
                             </Box>
                         </Box>
