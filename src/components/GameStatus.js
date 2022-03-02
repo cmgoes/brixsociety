@@ -9,7 +9,7 @@ import {
 } from '@mui/material';
 import BackgroundImage from '../assets/images/gameStatusBg.png';
 import ChartImage from '../assets/images/chart.png';
-import ScifiImage from '../assets/images/scifi.png';
+import arcadeImage from '../assets/images/arcade.jpg';
 import UserImage from '../assets/images/user.png';
 
 const lists = ['Blue Color', 'Cold', 'Crypto Art', 'Blue Filter', 'Defragmentation', 'Hexagon', 'Light', 'Motion', 'Sparks', 'Edition 1 of 1']
@@ -125,7 +125,7 @@ const GameStatus = () => {
 
                 <Grid container sx={{ pb: '130px' }} alignItems="center">
                     <Grid item xs={9} sm={6} md={4} lg={4} sx={{ mx: 'auto', mb: { xs: '20px', md: 0 } }}>
-                        <img src={ScifiImage} alt="" width='100%' />
+                        <img src={arcadeImage} alt="" width='100%' />
                     </Grid>
                     <Grid 
                         item 
@@ -141,7 +141,7 @@ const GameStatus = () => {
                                 mb: '32px'
                             }}
                         >
-                            Geometrical heart-fire dispersion
+                            MiniBrix Series 1
                         </Typography>
                         <Typography sx={{
                             color: '#fff',
@@ -149,9 +149,7 @@ const GameStatus = () => {
                             fontSize: 19,
                             mb: '48px'
                         }}>
-                            There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form, by injected humour, or randomised words which don't
-                            look even slightly believable.
+                            SAMPLE
                         </Typography>
                         <Box sx={{
                             display: 'flex',
@@ -235,7 +233,7 @@ const GameStatus = () => {
                             fontSize: 32,
                             color: '#fff'
                         }}>
-                            10.433 WAX
+                            249.997 WAX
                             <Typography
                                 component="span"
                                 sx={{

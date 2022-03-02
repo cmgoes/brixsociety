@@ -31,7 +31,7 @@ const useStyles = makeStyles(theme => ({
     menuButton: {
         display: 'block!important',
         color: '#fff!important',
-        fontSize: '20px!important',
+        fontSize: '18px!important',
         fontWeight: '400!important',
         textTransform: 'capitalize!important',
     },
@@ -97,7 +97,7 @@ export default function ButtonAppBar() {
                             component="img"
                             src={LogoImage}
                             alt=""
-                            sx={{ width: { xs: 160, sm: 238 } }}
+                            sx={{ width: { xs: 120, sm: 140, md: 160, xl: 180 } }}
                         />
                         <Box
                             sx={{
@@ -111,28 +111,35 @@ export default function ButtonAppBar() {
                         >
                             <Button 
                                 className={classes.menuButton}
-                                sx={{ mr: {md: '20px', lg: '44px'} }}
+                                sx={{ mr: {md: '10px', lg: '24px'} }}
                                 onClick={() => history.push('/home')}
                             >
                                 Home
                             </Button>
                             <Button 
                                 className={classes.menuButton}
-                                sx={{ mr: {md: '20px', lg: '44px'} }}
-                                onClick={() => history.push('/arcade')}
+                                sx={{ mr: {md: '10px', lg: '24px'} }}
+                                onClick={() => history.push('/staking')}
                             >
-                                Arcade
+                                Staking
                             </Button>
                             <Button 
                                 className={classes.menuButton}
-                                sx={{ mr: {md: '20px', lg: '44px'} }}
+                                sx={{ mr: {md: '10px', lg: '24px'} }}
                                 onClick={() => history.push('/shop')}
                             >
                                 Shop
                             </Button>
                             <Button 
                                 className={classes.menuButton}
-                                sx={{ mr: {md: '20px', lg: '44px'} }}
+                                sx={{ mr: {md: '10px', lg: '24px'} }}
+                                onClick={() => history.push('/arcade')}
+                            >
+                                Arcade
+                            </Button>
+                            <Button 
+                                className={classes.menuButton}
+                                sx={{ mr: {md: '10px', lg: '24px'} }}
                                 onClick={() => history.push('/whitepaper')}
                             >
                                 Whitepaper

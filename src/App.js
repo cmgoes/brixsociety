@@ -15,11 +15,15 @@ function App() {
             component={Home}
           />
           <Route
-            path="/arcade"
+            path="/staking"
             component={Store}
           />
           <Route
             path="/shop"
+            component={null}
+          />
+          <Route
+            path="/arcade"
             component={null}
           />
           <Route
