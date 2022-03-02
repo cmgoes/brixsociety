@@ -81,7 +81,7 @@ const Home = () => {
                         }}
                     >
                         Community based on the wax chain of 10k MiniBrix NFTs currently developing a staking platform, built in store, 
-                        and multiple arcade style games coming 2022 Main page information
+                        and multiple arcade style games coming 2022
                     </Typography>
                     <Box sx={{
                         display: 'flex',
